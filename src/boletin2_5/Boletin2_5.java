@@ -9,7 +9,7 @@ public class Boletin2_5 {
  
     public static void main(String[] args) {
         float millasmarinas, metros;
-        int CONSTANTE= 1852;
+        final int CONSTANTE= 1852;
         millasmarinas=Float.parseFloat(JOptionPane.showInputDialog("millasmarinas"));
                 metros=millasmarinas*CONSTANTE;
                 
